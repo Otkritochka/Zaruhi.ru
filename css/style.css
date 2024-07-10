@@ -1,0 +1,491 @@
+*{
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+} 
+header{
+    width: 100%; 
+    height: 1000px; 
+    background-image:linear-gradient(to bottom, white 10%, rgb(73, 203, 254)  , rgb(232, 66, 232)   , rgb(246, 7, 154), white ) ;
+}
+nav{
+    width: 100%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
+    text-decoration: none; 
+} 
+.menu2, .logo2, .languages2{
+    display: none;
+}
+.menu{
+    width: 70%;
+} 
+.languages{
+    width: 30% ;
+}
+ul{
+    list-style-type: none; 
+    overflow: hidden; 
+} 
+ul>li{
+    float: left;
+}
+@font-face{
+    font-family: "Klukva"; 
+    src: url("../fonts/Klukva_version_01.otf") format(opentype);
+} 
+ul>li a, .languages>ul>li a{
+    text-decoration: none; 
+    padding: 30px ;
+    display: block; 
+    color: rgb(255, 8, 128); 
+    font-size: 25px; 
+    font-family: "Klukva"; 
+    font-weight: 600;
+} 
+ul>li a:hover{
+    color: rgb(255, 0, 234); 
+} 
+.logo{
+    background-image: url(../images/Изображение\ WhatsApp\ 2024-06-30\ в\ 20.12.00_4b603ed3.jpg); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: contain;
+    width: 30%; 
+    height: 80px; 
+    margin: 5px;
+} 
+main{
+    width: 100%; 
+    height: auto; 
+    
+} 
+
+.carousel-inner{ 
+   width: 50%;
+   margin: auto; 
+   
+} 
+.carousel-inner iframe{
+    border: 5px solid white; 
+   border-radius: 13%;
+}
+.carousel-item>button{
+    background-color:rgb(255, 8, 128) ; 
+    border: none; 
+    padding: 10px; 
+    display: block;
+    margin: auto; 
+    box-shadow: 2px 4px 4px rgb(235, 15, 121);
+}
+button a{
+    color: white; 
+    text-decoration: none; 
+    font-size: 20px; 
+    
+} 
+.carousel-item{ 
+   padding-bottom: 80px;
+} 
+.carousel-caption d-none d-md-block{
+    display: block;
+}
+@font-face{
+    font-family: "Alaya Roza"; 
+    src: url("../fonts/AlayaRozaDemo.otf") format(opentype);
+}
+#About{
+    width: 100%; 
+    height: 700px; 
+    background-image:linear-gradient(to bottom, white 10%, rgb(73, 203, 254)  , rgb(232, 66, 232)   , rgb(246, 7, 154), white ) ;
+} 
+#About>h1, #Examples>h1, #Contacts>h1, header>h1{
+    font-family: "Alaya Roza"; 
+    color: rgb(255, 8, 128); 
+    font-size: 100px; 
+    text-align: center; 
+    width: 90%; 
+    margin: auto;
+} 
+#About>p{
+    font-family: "Klukva"; 
+    color: rgb(255, 8, 128); 
+    font-size: 30px; 
+    text-align: center;
+} 
+.sertificates{ 
+    width: 90%;
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    margin: auto;
+} 
+.ser{
+    width: 40%; 
+    height: 300px; 
+    border-radius: 13px; 
+    border: 5px solid white; 
+    background-position: center; 
+    background-size: cover;  
+    background-repeat: no-repeat; 
+    
+} 
+.n1{
+   background-image: url(../images/Zaruhi.jpg);
+} 
+.n2{
+    background-image: url(../images/Anna.jpg);
+} 
+#Examples{
+    width: 100%; 
+    height: 440%; 
+    background-image:linear-gradient(to bottom, white 10%, rgb(73, 203, 254)  , rgb(232, 66, 232)   , white ) ;
+} 
+#Examples>p{
+    font-size: 40px; 
+    font-family: "Klukva";
+    color:rgb(255, 8, 128);
+    text-align: center;
+}
+.sites, .cards, .photos, .logos{ 
+    width: 90%;
+    display: flex; 
+    justify-content: space-around; 
+    text-align: center; 
+    margin: auto; 
+    flex-wrap: wrap;
+} 
+.site{
+    width: 30% ; 
+    height: 400px;
+    
+} 
+.site>iframe{
+    border-radius: 13px; 
+    border: 5px solid white;
+} 
+.site>button{
+    background-color:rgb(255, 8, 128) ; 
+    border: none; 
+    padding: 10px; 
+    margin: 10px 0px 0px 0px; 
+    box-shadow: 2px 4px 4px rgb(235, 15, 121);
+}
+.card{ 
+    width: 20%; 
+    height: 350px;
+    margin: 10px;
+    background-position: center; 
+    background-size: contain;
+    background-repeat: no-repeat;
+} 
+.c1{
+    background-image: url(../images/дрребёнка.png); 
+} 
+.c2{
+    background-image: url(../images/леосденьгами.png);  
+} 
+.c3{
+    background-image: url(../images/новоселье.png);  
+} 
+.c4{
+    background-image: url(../images/поздравление.png);  
+} 
+.c5{
+    background-image: url(../images/приглашениенадр.png);  
+} 
+.c6{
+    background-image: url(../images/рождениеребёнка.png);  
+} 
+.c7{
+    background-image: url(../images/свадьба2.png);  
+} 
+.c8{
+    background-image: url(../images/визитка.png);  
+} 
+.photo{
+    width: 40%; 
+    height: 350px;
+} 
+.photos p{
+    font-size: 40px; 
+    font-family: "Klukva";
+    color:rgb(255, 8, 128)
+}
+.img1{
+    background-image: url(../images/Арарат.jpg);
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    height: 300px;
+} 
+.img2{
+    background-image: url(../images/копияАрарат.jpg);
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    height: 300px;
+} 
+.photo2{
+    width: 40%; 
+    height: 400px;
+} 
+.img3{
+    background-image: url(../images/камни.jpg);
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    height: 350px;
+} 
+.img4{
+    background-image: url(../images/копиякамней.jpg);
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    height: 350px;
+} 
+.photo3{
+    width: 40%; 
+    height: 450px;
+} 
+.img5{
+    background-image: url(../images/Гарни.jpg);
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    height: 400px;
+} 
+.img6{
+    background-image: url(../images/Гарни2.jpeg);
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    height: 400px;
+} 
+.logotype{
+    width: 15%; 
+    height: 200px; 
+    background-position: center; 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    border: 5px solid white; 
+    border-radius: 13px; 
+    margin: 10px;
+} 
+.l1{
+    background-image: url(../images/logo1.jpg);
+} 
+.l2{
+    background-image: url(../images/logo2.jpg);
+} 
+.l3{
+    background-image: url(../images/logo3.jpg);
+} 
+.l4{
+    background-image: url(../images/logo4.jpg);
+} 
+.l5{
+    background-image: url(../images/logo5.jpg);
+} 
+.video{
+    width: 50%; 
+    margin: auto;
+}
+.video>iframe{
+    width: 100%; 
+    
+    height: 600px;
+} 
+.video>p{
+    font-size: 40px; 
+    font-family: "Klukva";
+    color:rgb(255, 8, 128);
+    text-align: center; 
+} 
+#Contacts{ 
+    width: 100%; 
+    height: 85%; 
+    background-image:linear-gradient(to bottom, white, rgb(73, 203, 254), rgb(232, 66, 232)) ;
+} 
+#Contacts>p{
+    font-family: "Klukva"; 
+    color: rgb(255, 8, 128); 
+    font-size: 50px; 
+    text-align: center;
+} 
+#Contacts>p a{
+    color: white; 
+    text-decoration: none; 
+    font-size: 30px; 
+} 
+footer{
+    background-color: white; 
+    padding:10px;
+     color: black; 
+     text-align: center; 
+     font-size: 30px;
+} 
+.footfoto{
+    background-image: url(../images/Изображение\ WhatsApp\ 2024-06-30\ в\ 20.12.00_4b603ed3.jpg); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: contain;
+    width: 50%; 
+    height: 80px; 
+    margin: auto;
+
+} 
+@media only screen and (max-width: 900px){
+    header{
+        height: 1000px;
+    } 
+    ul>li a, .languages>ul>li a{
+        padding: 15px;
+    } 
+    .menu{
+        width: 70%;
+    } 
+    .logo{
+        width: 20%;
+    } 
+    #About>h1, #Examples>h1, #Contacts>h1, header>h1{
+        font-size: 80px; 
+        margin: auto; 
+        width: 90%;
+    } 
+    .carousel-inner{
+        width: 80%;
+    } 
+    #About>p, #Examples>p, #Contacts>p{
+        width: 95%;  
+        font-size: 40px;
+    } 
+    .sertificates{
+        width: 90%;
+    }
+    .ser{
+        width: 50%; 
+        margin: 10px;
+    } 
+    #Examples{
+        height: 5000px;
+    }
+    .site{
+        width: 50%;
+    } 
+    .card{
+        height: 300px; 
+        width: 30%;
+    } 
+    .logotype{
+        width: 20%; 
+        height: 150px;
+    } 
+    .video{
+        width: 60%;
+    } 
+    footer{
+        font-size: 25px;
+    } 
+    .footfoto{
+        width: 50%; 
+        height: 60px;
+    }
+} 
+@media only screen and (max-width: 600px){ 
+    header{
+        background-image:linear-gradient(to bottom, white 15%, rgb(73, 203, 254)  , rgb(232, 66, 232)   , rgb(246, 7, 154), white ) ;
+    }
+    nav{
+        flex-wrap: wrap; 
+        
+    }  
+    .menu, .logo, .languages{
+        display: none;
+    }
+    .menu2{ 
+        display: block;
+        width: 100%;
+    }
+    .logo2{ 
+        display: block;
+        height: 80px; 
+        width: 40%; 
+        background-image: url(../images/Изображение\ WhatsApp\ 2024-06-30\ в\ 20.12.00_4b603ed3.jpg); 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: contain;
+    }
+    .menu2>ul>li a, .languages2>ul>li a{
+        padding: 10px 10px 0px 10px; 
+        font-size: 20px; 
+        text-decoration: none; 
+        display: block; 
+        color: rgb(255, 8, 128); 
+        font-family: "Klukva"; 
+        font-weight: 600;
+    } 
+    .languages2{ 
+        display: block;
+        width: 40%;
+    } 
+    #About>h1, #Examples>h1, #Contacts>h1, header>h1{
+        font-size: 50px;
+    } 
+    .carousel-inner{
+        width: 90%;
+    } 
+    .carousel-caption d-none d-md-block{
+        display: block;
+    } 
+    #About{
+        height: 980px;
+    }
+    
+    .sertificates{
+        flex-wrap: wrap;
+    } 
+    .ser{
+        width: 90%;
+    } 
+    #Examples{
+        height: 8200px;
+    } 
+    
+    .site{
+        width: 90%;
+    } 
+    .card{
+        width: 60%;
+    } 
+    .photo, .photo2, .photo3{
+        width: 90%;
+    } 
+    .img5, .img6{
+       height: 350px;
+    } 
+    .logotype{
+        width: 40%;
+    } 
+    .video{
+        width: 90%;
+    } 
+    #About>p, #Examples>p, #Contacts>p{
+        width: 90%;  
+        margin: auto; 
+        font-size: 30px;
+    } 
+    footer{
+        font-size: 20px;
+    } 
+    .footfoto{
+        height: 50px;
+    }
+}

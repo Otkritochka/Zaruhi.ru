@@ -1,0 +1,619 @@
+*{
+    margin:0;
+    padding: 0; 
+    box-sizing: border-box;
+} 
+header{
+    width: 100%; 
+    height: 750px; 
+    background-image: url(../image/Frame_45.png); 
+    background-position: center center; 
+    color:white; 
+    text-align: center;
+}   
+.header-color{
+    width: 100%; 
+    height: 750px; 
+    background-color: rgba(0, 0, 0, 0.508);
+}   
+nav{
+    width: 100%; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+} 
+ul{
+    list-style-type: none; 
+    overflow: hidden;
+} 
+ul>li{
+    float: left;
+} 
+ul>li a{ 
+    text-decoration: none;
+    display: block;
+    padding: 30px 20px; 
+    color: white; 
+    font-size: 18px; 
+    font-weight: 500;
+} 
+.logo{
+    font-size: 30px;
+   
+} 
+header h1{
+    font-size: 80px; 
+    
+    padding: 150px 0px 30px 0px; 
+    animation-name: h1anim;
+    animation-timing-function: linear; 
+    animation-delay: 1s; 
+    animation-duration: 0.5s; 
+    animation-fill-mode: backwards;
+} 
+header p{
+    color: rgba(255, 255, 255, 0.767); 
+    font-size: 25px; 
+    font-weight: 100; 
+   
+    animation-name: h1anim;
+    animation-timing-function: linear; 
+    animation-delay: 1.5s; 
+    animation-duration: 0.5s; 
+    animation-fill-mode: backwards;
+} 
+header button{
+    padding: 20px 60px;
+    background-color: #ffbe49; 
+    color: white; 
+    font-size: 18px; 
+    border: none; 
+    border-radius: 30px; 
+    display: block;
+    margin: 60px auto; 
+    animation-name: h1anim;
+    animation-timing-function: linear; 
+    animation-delay: 2s; 
+    animation-duration: 0.5s; 
+    animation-fill-mode: backwards;
+} 
+.fa-chevron-down{
+    color: white;
+    font-size: 50px; 
+    margin: 50px ; 
+    animation-name: chevronanim; 
+    animation-timing-function: linear; 
+    animation-duration: 1s; 
+    animation-iteration-count: infinite; 
+    animation-direction: alternate;
+    position: relative;
+}   
+@keyframes chevronanim{
+     from{
+        top:10px;
+     } 
+     to{
+        top:0px;
+     }
+}   
+@keyframes h1anim{
+    from{
+        transform: scale(0.8); 
+        opacity: 0;
+    } 
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+} 
+#Services{
+    width: 100%; 
+    height: 750px;
+} 
+
+#Services>p{
+    font-size: 28px; 
+     margin: auto; 
+     text-align: center;
+    color: rgba(0, 0, 0, 0.693); 
+    width: 40%;
+} 
+.services{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 40px 0px;
+} 
+.service{
+    width: 25%; 
+    margin: 30px; 
+    
+}
+.service>img{
+    width: 100px; 
+    display: block;
+     margin:  auto;
+} 
+.service strong{ 
+    font-size: 20px; 
+    display: block;
+   margin: 20px 0px;
+   text-align: center;
+} 
+.service p{
+    font-size: 18px; 
+    color: rgba(0, 0, 0, 0.663); 
+    text-align: center;
+} 
+#About, #Prices{
+    width: 100%; 
+    height: 900px; 
+    background-color: rgba(0, 0, 0, 0.038);
+} 
+main h1{
+    font-size: 50px; 
+    text-align: center; 
+    display: block;
+   padding: 90px 0px 30px 0px;
+}
+#About>img{
+    width: 55%; 
+   
+    display: block;
+    margin: auto;
+} 
+#About>p{
+    font-size: 22px; 
+    text-align: center; 
+    width: 55%;
+    color: rgba(0, 0, 0, 0.605); 
+    line-height: 1.4;
+    margin:20px auto;
+} 
+#Portfolio{
+    width: 100%;
+    height: 1800px;
+} 
+
+#Portfolio>p, #Prices>p{
+    font-size: 30px; 
+    color: rgba(0, 0, 0, 0.534); 
+    display: block; 
+    margin: auto;
+    text-align: center;
+    width: 40%;
+} 
+.portfolio{
+    margin: 50px 0px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap;
+} 
+.proect1{
+    background-image: url(../image/ginazee97522a.jpg); 
+    background-size: cover;
+    width: 880px; 
+    height: 600px; 
+    margin: 10px;
+} 
+.proect2{
+    background-image: url(../image/Rectangle_59.png); 
+    background-size: cover;
+    width: 500px; 
+    height: 600px;
+} 
+.proect3{
+    background-image: url(../image/photo.jpg);
+    background-size: cover; 
+    background-position: center center;
+    width: 500px; 
+    height: 600px;
+} 
+.proect4{
+    background-image: url(../image/breather181280.jpg); 
+    background-size: cover;
+    width: 880px; 
+    height: 600px; 
+    margin: 10px;
+} 
+#Portfolio>button{
+    padding: 20px 60px; 
+    background-color: transparent; 
+    color: black; 
+    border: 3px solid black; 
+    border-radius: 30px; 
+    font-size: 18px; 
+    display: block;
+    margin: auto;
+    transition: all 0.5s; 
+    transition-timing-function: linear;
+}
+#Portfolio>button:hover{
+    
+    background-color: #ffbe49; 
+    color: white; 
+    
+    border: none; 
+    
+} 
+.prices{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 50px 0px;
+} 
+.price{
+    width: 350px; 
+    height: 480px;
+    background-color: white;
+    margin: 20px; 
+    border-radius: 10px;
+} 
+.price>h2{
+    text-align: center; 
+    margin: 50px 0px;
+} 
+.price>strong{
+    font-size: 45px; 
+    display: block;
+    text-align: center;
+} 
+.price>p{
+    font-size: 19px; 
+    color: rgba(0, 0, 0, 0.541); 
+    text-align: center; 
+    line-height: 2; 
+    margin: 20px 0px;
+} 
+.price>button{
+     padding: 12px 40px;
+     border-radius: 30px; 
+     background-color: #ffbe49; 
+    color: white; 
+    border: none; 
+    margin: auto;
+    display: block;
+} 
+.standart{
+    width: 400px; 
+    height: 520px; 
+    box-shadow: 4px 4px 4px 4px rgba(128, 128, 128, 0.327);
+} 
+#Work{
+    width: 100%; 
+    height: 900px;
+} 
+.work{ 
+    width: 60%;
+    margin: 30px auto;
+} 
+.step{
+    display: flex; 
+   margin: 40px 0px; 
+   position: relative;
+}
+.step-photo{
+    width: 80px; 
+    height: 80px; 
+    background-color: transparent; 
+    border-radius: 50% ;
+    border: 2px solid #ffbe49; 
+    background-size: cover;
+}
+.sketch{
+    background-image: url(../image/Slice8Copy9.png);
+} 
+.visualisation{
+    background-image: url(../image/Slice8Copy10.png);
+}
+.documentation{
+    background-image: url(../image/Slice8Copy17.png);
+} 
+.design{
+    background-image: url(../image/interior_design_icon_4.png);
+} 
+.info{
+    width: 70%; 
+    padding: 20px 0px; 
+    margin: 0px 20px;
+} 
+.info>strong{
+    font-size: 25px;
+} 
+.info>p{
+    font-size: 18px; 
+    color: rgba(0, 0, 0, 0.645);
+} 
+.line{
+    width: 80px; 
+    height: 1.5px; 
+    background-color: rgba(128, 128, 128, 0.422); 
+    transform: rotate(90deg); 
+    position: absolute; 
+    top:120px
+} 
+#Contacts{
+    width: 100%; 
+    height: 600px; 
+    display: flex;
+} 
+.contacts{
+    width: 50%; 
+    background-color: rgba(0, 0, 0, 0.067);
+} 
+.contacts>strong{
+    font-size: 35px; 
+    display: block;
+    margin: 120px 0px 30px 70px;
+} 
+.contacts>span{
+    font-size: 27px; 
+    color: rgba(0, 0, 0, 0.451); 
+    display: block; 
+    margin: 0px 70px;
+} 
+.contacts>p{
+    font-size: 20px; 
+    color: rgba(0, 0, 0, 0.451); 
+    display: block; 
+    margin: 0px 70px;
+}
+.fa-brands{
+    font-size: 30px;
+   
+} 
+.icons{
+    margin: 50px 70px;
+} 
+
+footer{
+    width: 100%; 
+    padding: 30px; 
+    color: black; 
+    font-size: 30px; 
+    text-align: center; 
+    background-color: white; 
+    
+} 
+.footfoto{
+    background-image: url(../image/Изображение\ WhatsApp\ 2024-06-30\ в\ 20.12.00_4b603ed3.jpg); 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: contain; 
+    width: 50%; 
+    height: 80px; 
+    margin: auto;
+}
+@media only screen and (max-width:992px){
+    header{
+        height: 700px; 
+        background-size: cover;
+        
+    } 
+    .header-color{
+        height: 700px;
+    } 
+    header h1{
+        font-size: 70px; 
+        width: 90%; 
+        margin: auto;
+        padding: 80px 0px 20px 0px;
+    } 
+    header p{
+        font-size: 20px;
+    } 
+    #Services{
+        height: 700px;
+    } 
+    main h1{
+        font-size: 40px; 
+        padding: 50px 0px 20px 0px;
+    } 
+    
+    #Services>p{
+        font-size: 22px; 
+        width: 50%;
+    } 
+    .services{
+        margin: 20px 0px;
+    } 
+    #About{
+        height: 750px;
+    } 
+    #About>img{
+        width: 65%; 
+        
+    } 
+    #About>p{
+        font-size: 20px; 
+        width: 70%;
+    } 
+    #Portfolio{
+        height: 1300px;
+    }
+    #Portfolio>p,#Prices>p{
+        font-size: 25px; 
+        width: 60%;
+    } 
+    
+    .proect1, .proect4{
+        width: 500px; 
+        height: 400px;
+       
+        
+    } 
+    .proect2,.proect3{
+        width: 300px;
+        height: 400px;
+    } 
+    #Prices{
+        height: 2000px;
+    } 
+    .prices{
+        flex-direction: column;
+    }
+    .price{
+        width: 500px;
+    } 
+    .standart{
+        width: 550px;
+    } 
+    .work{
+        width: 80%;
+    } 
+    .info{
+        width: 80%;
+    } 
+    .line{
+        width: 90px; 
+        left: -5px;
+        top:125px
+    }
+    #Contacts{
+        flex-wrap: wrap;
+         height: 750px;
+    } 
+    .contacts{
+        width: 100%; 
+        height: 350px;
+    } 
+    .contacts>strong{
+        text-align: center; 
+        margin: 60px 0px 20px 0px;
+    } 
+    .contacts>span{
+        font-size: 22px; 
+        text-align: center;
+    } 
+    .contacts>p{
+        text-align: center;
+    } 
+    .icons{ 
+        display: block;
+        margin:50px 40%;
+    }
+    iframe{
+        width: 100%; 
+        height: 400px;
+    } 
+    footer{
+        padding: 30px;
+    } 
+    .footfoto{
+        width: 30%; 
+        height: 50px; 
+    }  
+} 
+@media only screen and (max-width:600px) { 
+    header{
+        height: 600px;
+    } 
+    .header-color{
+        height: 600px;
+    }
+    ul>li{
+        float: none;
+    } 
+    ul>li a{
+        padding: 5px 20px;
+    } 
+    header h1{
+        font-size: 50px; 
+        padding: 40px 0px 10px 0px;
+    } 
+    header p{ 
+        font-size: 20px; 
+        width: 60%; 
+        display: block; 
+        margin: auto;
+    } 
+    header button{
+        padding: 10px 50px;
+    } 
+    .fa-chevron-down{ 
+        font-size: 30px; 
+      
+    } 
+    #Services{
+        height: 850px;
+    }
+    #Services>p{
+        font-size: 20px; 
+        width: 80%;
+    }
+    .services{
+        flex-wrap: wrap;
+    }
+    .service{
+        display: flex;
+         width: 90%; 
+         
+    } 
+    .service strong{
+        text-align: left;
+    } 
+    .service p{
+        text-align: left;
+    } 
+    .text{
+        margin: 0px 10px;
+    } 
+    #About{
+        height: 650px;
+    }
+    #About>img{
+        width: 75%;
+         
+    } 
+    #About>p, #Prices>p{
+        font-size: 22px; 
+        width: 90%;
+    } 
+    #Portfolio{
+        height: 1700px;
+    } 
+    .proect1, .proect2, .proect3, .proect4{
+         width: 500px;
+        height: 300px;
+        margin: 10px;
+    } 
+    #Portfolio>button{
+        padding:15px 40px
+    } 
+    #Prices{
+        height: 2000px;
+    }
+    .price{
+        width: 350px;
+    } 
+    #Work{
+        height: 1200px;
+    } 
+    .step{
+        width: 100%; 
+        margin: 20px 0px;
+    } 
+    .step-photo{
+        width: 30%; 
+        
+        background-size: cover; 
+        background-position: center;
+    } 
+    .info{
+        width: 90%;
+    }
+    .info>strong{
+        font-size: 22px;
+    } 
+    .info>p{
+        font-size: 20px;
+    }
+    .line{
+        width: 190px; 
+        left: -55px; 
+        top:170px
+    }
+    
+    
+}

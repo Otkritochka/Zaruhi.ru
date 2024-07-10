@@ -1,0 +1,759 @@
+*{
+    margin:0; 
+    padding:0; 
+    box-sizing: border-box;
+} 
+nav{
+    width: 100%; 
+    height: 100px; 
+    background-color: white; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+} 
+.menu{
+    width: 800px; 
+    height: 80px; 
+    background-color:white ;
+}
+ul{
+    list-style-type: none; 
+    background-color:white ; 
+    overflow: hidden;
+} 
+ul>li a{
+    text-decoration: none; 
+    padding: 32px 20px;
+    color: black;
+    font-size: 22px ;
+} 
+ul>li{
+    float: left; 
+    /*padding:35px 20px; */
+    padding-left: 20px;
+} 
+.logo{
+    width: 300px; 
+    height: 100px; 
+    text-align: center; 
+    font-size: 20px; 
+    padding: 30px
+} 
+.link{
+    width: 400px; 
+    height: 100px; 
+    font-size: 22px; 
+    padding: 35px;
+} 
+.photo{
+    padding: 180px;
+    width: 100%; 
+    height: 655px; 
+    background-color: rgba(0, 0, 0, 0.11);
+} 
+header{
+    background-image: url(../image/petebellis125877.jpg); 
+    background-size: cover; 
+    background-position: center;
+    width: 100%; 
+    height: 755px; 
+} 
+.photo>h1{
+    font-size: 68px; 
+    color:white; 
+    /*padding: 200px ; 
+    padding-left: 290px;*/ 
+    
+    margin:  auto;
+    width: 80%; 
+    text-align: center;
+} 
+.fa-arrow-down{
+    position: relative; 
+    bottom: 50px; 
+    left: 50%;
+} 
+#Shop{
+    width: 100%; 
+    height:auto; 
+     
+    
+    
+    
+} 
+#Shop>p{
+    font-size: 36px; 
+    width: 80%; 
+    margin: auto;
+    text-align: center; 
+    padding: 10% ; 
+    
+} 
+.clothes{
+    width: 100%; 
+    height: auto; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap:wrap ; 
+    
+} 
+.product{
+    margin: 20px; 
+    
+} 
+.name>strong{
+    font-size: 22px; 
+    text-align: center; 
+    margin:auto; 
+}    
+.text{
+    margin: 10px;
+}  
+.name{
+    margin: 20px 70px; 
+    text-align: center;
+}
+.text>p{
+    color: rgba(0, 0, 0, 0.393); 
+    font-size: 18px; 
+    text-align: center;
+} 
+.price{
+    margin: 20px; 
+    text-align: center;
+}
+.price>span{
+    font-size: 22px; 
+    text-align: center; 
+}  
+    
+
+.dress{
+    width: 350px; 
+    height: 350px; 
+    background-size: cover;
+}
+.photo1{
+    background-image: url(../image/Frame_1.png) ;
+} 
+.photo2{
+    background-image: url(../image/Frame_2.png);
+} 
+.photo3{
+    background-image:url(../image/Frame_3.png) ; 
+    padding: 10px; 
+    padding-left: 80%;
+} 
+.new{
+    background-color: orange; 
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    color: white;
+} 
+
+.photo4{
+    background-image: url(../image/Frame_4.png) ;
+} 
+.photo5{
+    background-image: url(../image/Frame_33.png) ;
+} 
+.photo6{
+    background-image: url(../image/Frame_6.png) ;
+} 
+.photo7{
+    background-image: url(../image/Frame_7.png);
+} 
+.photo8{
+    background-image: url(../image/Frame_8.png) ;
+} 
+.photo9{
+    background-image: url(../image/Frame_9.png);
+} 
+#About{
+    width: 100%; 
+    height: 650px; 
+    background-color: rgba(128, 128, 128, 0.151); 
+    
+} 
+#About>h1{ 
+    display: block;
+    font-size: 70px; 
+    margin: auto; 
+    padding-top: 10%;
+    width: 200px; 
+} 
+.line{
+    height: 2px; 
+    width: 100px; 
+    background-color: orange; 
+    margin: 20px auto ; 
+    
+}   
+#About>p{
+    font-size: 23px; 
+    color: rgba(0, 0, 0, 0.537); 
+    width: 800px;
+    text-align: center; 
+    margin: auto; 
+    line-height: 1.4;
+}
+
+#work{
+    width: 100%; 
+    height: 1150px; 
+    background-color:rgba(128, 128, 128, 0.151) ;
+} 
+.work2{
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+}
+#work>h1,
+#form>h1{ 
+    width: 900px;
+    font-size: 48px; 
+    margin: auto; 
+    padding-top: 120px;
+} 
+.pluses{
+    width: 600px;
+    height: 600px; 
+    margin: 200px 90px; 
+    
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+} 
+.plus{
+    width: 550px; 
+    height: 400px; 
+    
+} 
+
+.adv{
+    width: 65px; 
+    height: 65px; 
+    float: left;
+} 
+.img1{
+    background-image: url(../image/3st_hand.svg);
+} 
+.img2{
+    background-image: url(../image/touragency_emoji.svg);
+} 
+.img3{
+    background-image: url(../image/photostudio_drop.svg);
+}
+.context{
+    padding-left: 90px; 
+    text-align: left; 
+    width: 600px; 
+    height: 50px; 
+}
+.context>strong{
+    font-size: 35px; 
+    color:black; 
+    line-height: 1.5; 
+    
+} 
+.context>p{
+    font-size: 20px; 
+    color: rgba(0, 0, 0, 0.612); 
+    
+} 
+img{
+    width: 550px; 
+    height: 630px; 
+    float: right; 
+    margin: 90px;
+} 
+#form{
+    width: 100%; 
+    height: 950px; 
+    
+} 
+#form>p{
+    font-size: 28px; 
+    color: rgba(0, 0, 0, 0.612); 
+    line-height: 1.5; 
+    padding: 20px; 
+    text-align: center; 
+    width: 600px; 
+    margin: auto;
+} 
+form{
+   padding: 3%;
+   padding-left: 30%;
+   
+} 
+input{
+    width: 600px;
+    height: 60px; 
+    margin: 15px; 
+    font-size: 17px; 
+    padding: 10px; 
+    color: rgba(128, 128, 128, 0.477);
+} 
+textarea{
+   width: 600px; 
+   height: 100px;
+   margin: 15px; 
+    font-size: 17px; 
+    padding: 10px; 
+    color: rgba(128, 128, 128, 0.625);
+} 
+.submit{
+    width: 200px; 
+    color: white; 
+    background-color: black; 
+    border-radius: 10px; 
+    border: none; 
+    margin-left: 22%;
+} 
+.small{
+    width: 700px; 
+    
+    text-align:center; 
+    margin: auto; 
+    line-height: 1.55;
+}
+.small>small{
+    font-size: 18px; 
+    color: rgba(128, 128, 128, 0.625); 
+    width: 200px; 
+    height: 50px;
+    padding-left: 10%; 
+    text-align: center;
+    margin: auto;
+} 
+#Contacts{
+    width: 100%; 
+    height: 560px;
+    background-color: rgba(128, 128, 128, 0.178); 
+    
+    
+} 
+.icons{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 12%;
+} 
+.fa-square-twitter, 
+.fa-vk, 
+.fa-telegram{
+    padding: 10px; 
+} 
+.showroom>h1{
+    font-size: 30px; 
+    width: 560px; 
+    text-align: center; 
+    margin: -90px 30%; 
+    ;
+} 
+.contacts>p{
+    font-size: 25px; 
+    color: rgba(128, 128, 128, 0.625); 
+    padding-top: 120px; 
+    width: 450px; 
+    text-align: center; 
+    margin: auto;
+} 
+footer{
+    width: 100%; 
+    height: 70px; 
+    font-size: 20px; 
+    background-color: white; 
+    color: black; 
+    text-align: center; 
+    padding: 30px;
+} 
+footer>.footfoto{
+    background-image:url(../image/Изображение\ WhatsApp\ 2024-06-30\ в\ 20.12.00_4b603ed3.jpg) ; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: contain;
+    width: 50%; 
+    height: 80px; 
+    margin: auto;
+} 
+@media only screen and (max-width:992px){
+    nav{
+       width: 100%; 
+       height: 80px; 
+       background-color: white; 
+       display: flex; 
+       justify-content: space-between;
+       align-items: center; 
+       
+    } 
+    .menu{
+        width: 40%; 
+        height: 70px; 
+        background-color:white ;
+    } 
+    ul>li a{
+        font-size: 15px; 
+        padding: 5px ; 
+        float: none;
+    } 
+    ul>li{
+        font-size: 15px; 
+        float: none;
+    }
+    .logo{
+        width: 100px; 
+        height: 50px; 
+        text-align: center; 
+        font-size: 16px; 
+        display: block;
+        
+        margin: auto;
+    } 
+    .link{
+        width: 200px; 
+        height: 100px; 
+        font-size: 15px; 
+        padding: 10px;
+    } 
+    .photo{
+    
+        width: 100%; 
+        height: 675px; 
+        background-color: rgba(0, 0, 0, 0.11);
+    } 
+    .photo>h1{
+        font-size: 60px; 
+        color:white; 
+        
+        
+        width: 100%; 
+        text-align: center;
+    } 
+    #Shop>p{
+        font-size: 28px; 
+        width: 90%; 
+        margin: auto;
+        text-align: center; 
+    } 
+    .clothes{
+        width: 100%; 
+        height: auto; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        flex-wrap:wrap ; 
+        
+    }
+    .product{
+        margin: 10px; 
+    } 
+    .name>strong{
+        font-size: 18px; 
+        text-align: center; 
+        margin:auto; 
+    } 
+    .dress{
+        width: 250px; 
+        height: 250px; 
+        background-size: cover;
+    }   
+    .text{
+        margin: 5px;
+    }  
+    .name{
+        margin: 10px 50px; 
+        text-align: center;
+    }
+    .text>p{
+        color: rgba(0, 0, 0, 0.393); 
+        font-size: 15px; 
+        text-align: center;
+    } 
+    .price{
+        margin: 10px; 
+        text-align: center;
+    }
+    .price>span{
+        font-size: 18px; 
+        text-align: center; 
+    }  
+    .new{
+        background-color: orange; 
+        width: 45px; 
+        height: 45px; 
+        border-radius: 50%; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        color: white;
+    } 
+    .photo3{
+        background-image:url(../image/Frame_3.png) ; 
+        padding: 5px; 
+        padding-left: 70%;
+    } 
+    #About{
+        width: 100%; 
+        height: 550px; 
+        background-color: rgba(128, 128, 128, 0.151); 
+        padding: 10px;
+    }    
+    #About>p{
+        width: 570px;
+    }
+    
+    #work{
+        width: 100%; 
+        height: auto; 
+        background-color:rgba(128, 128, 128, 0.151) ; 
+        padding: 10px;
+    } 
+    .work2{
+        display: flex; 
+        justify-content: space-around; 
+        align-items: center; 
+        flex-direction: column;
+    } 
+    #work>h1,
+    #form>h1{ 
+    width: 100%;
+    font-size: 45px; 
+    margin: auto; 
+    padding-top: 100px; 
+    text-align: center;
+    } 
+    img{
+     width: 80%; 
+     height: 630px; 
+    
+     margin: auto;
+    } 
+   .pluses{
+    width: 100%;
+    height: 600px; 
+    margin: 10px; 
+    
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+} 
+#form{
+    width: 100%; 
+    height: 950px; 
+    padding: 10px;
+}
+form{
+    padding: 4%;
+    padding-left: 10%; 
+    margin:
+} 
+#form>p{
+    font-size: 22px; 
+    color: rgba(0, 0, 0, 0.612); 
+    line-height: 1.5; 
+    padding: 20px; 
+    text-align: center; 
+    width: 600px; 
+    margin: auto;
+} 
+.submit{
+    width: 200px; 
+    color: white; 
+    background-color: black; 
+    border-radius: 10px; 
+    border: none; 
+    
+} 
+#Contacts{
+    width: 100%; 
+    height: 560px;
+    background-color: rgba(128, 128, 128, 0.178); 
+}   
+.icons{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 10%;
+}   
+.showroom>h1{
+    font-size: 25px; 
+    width: 650px; 
+    text-align: center; 
+    margin: auto; 
+    
+} 
+.contacts>p{
+    font-size: 20px; 
+    color: rgba(128, 128, 128, 0.625); 
+    padding-top: 60px; 
+    width: 450px; 
+    text-align: center; 
+    margin: auto;
+} 
+}
+@media only screen and (max-width:600px) {
+    #head{
+        width: 135%;
+    }
+    nav{
+            width: 100%; 
+            height: 100px; 
+            background-color: white; 
+            display: flex; 
+            justify-content: center;
+            align-items: center; 
+            box-sizing: border-box;
+            block-size: auto;
+           
+       }
+    
+    .menu{
+        width: 20%;
+        height: 40px; 
+        background-color:white ;
+        
+    }
+    ul>li a{
+        font-size: 15px; 
+        padding: 3px ; 
+        float: none;
+    } 
+    ul>li{
+        font-size: 10px; 
+        float: none;
+    }
+    .logo{
+        width: 50px; 
+        height: 60px; 
+        text-align: center; 
+        font-size: 17px; 
+        display: block;
+        
+        margin: auto;
+    }
+    .link{
+        width: 100px; 
+        height: 80px; 
+        font-size: 15px; 
+        padding: 10px;
+    }
+    .photo{
+    
+        width: 135%; 
+        height: 675px; 
+        background-color: rgba(0, 0, 0, 0.11);
+    } 
+    .photo>h1{
+        font-size: 60px; 
+        
+        
+        
+        width: 80%; 
+        text-align: left;
+    }
+    #Shop>p{
+        font-size: 25px; 
+        width: 100%; 
+        margin: auto 50px;
+        text-align: center; 
+    } 
+    .clothes{
+        width: 120%; 
+        height: auto; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        flex-wrap:wrap ; 
+        
+    }
+    .product{
+        margin: 20px; 
+    }
+    .name>strong{
+        font-size: 30px; 
+        text-align: center; 
+        margin:auto; 
+    } 
+    .dress{
+        width: 350px; 
+        height: 350px; 
+        background-size: cover;
+    }   
+    .text{
+        margin: 5px;
+    } 
+    .name{
+        margin: 10px 30px; 
+        text-align: center;
+    }
+    .text>p{
+        color: rgba(0, 0, 0, 0.393); 
+        font-size: 18px; 
+        text-align: center;
+    } 
+    .price{
+        margin: 10px; 
+        text-align: center;
+    }
+    .price>span{
+        font-size: 18px; 
+        text-align: center;   
+    }
+    #About>p{
+        width: 450px;
+    }
+
+    #work{
+        width: 135%; 
+        height: auto; 
+        background-color:rgba(128, 128, 128, 0.151) ; 
+        padding: 5px;
+    } 
+    .work2{
+        display: flex; 
+        justify-content: space-around; 
+        align-items: center; 
+        flex-direction: column;
+    } 
+    .icons{
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        padding: 10%;
+    }   
+    .showroom>h1{
+        font-size: 25px; 
+        width: 100px; 
+        text-align: center; 
+        margin: auto;
+       
+        
+    } 
+    .contacts>p{
+        font-size: 30px; 
+        color: rgba(128, 128, 128, 0.625); 
+        padding-top: 20px; 
+        width: 600px; 
+        text-align: center; 
+        margin: auto;
+    }
+    #Contacts{
+        width: 100%; 
+        height: 560px;
+        background-color: rgba(128, 128, 128, 0.178); 
+    }   
+    #Contacts{
+        width: 135%; 
+        height: 560px;
+        background-color: rgba(128, 128, 128, 0.178); 
+    }     
+
+}
